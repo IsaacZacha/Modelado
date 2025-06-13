@@ -25,6 +25,9 @@ web_agent = Agent(
     markdown=True,
 )
 
+
+
+
 finance_agent = Agent(
     name="Finance Agent",
     model=OpenAIChat(id="gpt-4o"),
